@@ -13,6 +13,10 @@
 - Installed babel and tried to use it to deobfuscate the code 
 - Explored relationships between nodes in the AST and how they can be used to deobfuscate code
 
+### 5/23/2023
+- Worked on presentation for the project. Made edits to the common misconception about java and javascript
+- Worked with Eric on formatting the entire presentation
+
 ### 5/24/2023
 - Add on to presentation topics and add more information to the slides
 
