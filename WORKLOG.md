@@ -29,7 +29,7 @@ info
 - worked on the obfuscated code exmaple and finished working on the outlin . 
 
 ### 5/23/2023 
-- Started coverting our outline into an actual presentation
+-we have started the process of converting our project outline into an actual presentation. As part of this task, we are transforming the initial project structure and ideas into a cohesive and visually appealing presentation format.
 
 ### 5/24/2023 
 - Add JavaScript Obfuscator with powerful code obfuscation features
