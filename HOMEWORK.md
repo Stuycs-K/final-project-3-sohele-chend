@@ -16,6 +16,8 @@ The code would aim to be simple and relatively understandble
 
 Deliverable: A js file with the above code deobfuscated (string replaced with plaintext and understandable variable names would suffice)
 
+(hint: paste the above code into a code editor and lint it to make it more readable)
+
 ## Part 2: Instructions:
 1. Analyze the given obfuscated Javascript code.
 2. Identify the obfuscation techniques used in the code.
