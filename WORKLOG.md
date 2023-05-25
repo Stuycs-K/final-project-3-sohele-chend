@@ -32,7 +32,8 @@ info
 - Started coverting our outline into an actual presentation
 
 ### 5/24/2023 
-- Continued working on the bullet points of our Outline. 
+- Add JavaScript Obfuscator with powerful code obfuscation features
+introduced the JavaScript Obfuscator library, a Python package that provides advanced obfuscation techniques for JavaScript code. 
 
 
 ### 5/26/2023 
