@@ -18,12 +18,18 @@
 
 info
 
-## GROUP MEMBER 2
+## Eric Sohel
 
-### date x
+### 5/19/2023
 
-info
+-Worked on the presentation for the project. Started on working on the first section on the basic explation of javascript and obfuscation. 
 
-### date y
 
-info
+### 5/22/2023
+- worked on the obfuscated code exmaple and finished working on the outlin . 
+
+### 5/23/2023 
+- Started coverting our outline into an actual presentation
+
+### 5/24/2023 
+- Continued working on the bullet points of our Outline. 
