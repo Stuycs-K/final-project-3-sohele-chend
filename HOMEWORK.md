@@ -41,8 +41,7 @@ eval(function(p, a, c, k, e, r) {
 }('0 3() {1.2("4 5!")} 3();', 6, 6, 'function|document|write|helloWorld|Hello|World'.split('|'), 0, {}));
 ```
 
-Hints:
-1. The given code uses an eval() function to execute the obfuscated code. You can replace eval() with console.log() to print the decoded code.
+### Hints:
 2. The obfuscation technique used is a combination of string manipulation and character encoding.
 3. Pay attention to the split() function and how it is used to create an array of strings.
 4. The flag format is FLAG{...}.
