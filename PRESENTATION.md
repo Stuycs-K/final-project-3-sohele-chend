@@ -89,3 +89,21 @@ Now, we're open for any questions and further discussions. For those interested 
 - [JavaScript Obfuscator](https://www.javascriptobfuscator.com/)
 - [Understanding JavaScript Obfuscation Techniques](https://resources.infosecinstitute.com/topic/understanding-javascript-obfuscation-techniques/)
 - [Deobfuscating JavaScript Malware with JS Deobfuscator](https://www.fireeye.com/blog/threat-research/2013/08/deobfuscating-javascript-malware-with-js-deobfuscator.html)
+
+## JavaScript Obfuscator
+
+**JavaScript Obfuscator** is a Python library that provides obfuscation features for JavaScript code. It offers several powerful techniques to obfuscate JavaScript code and make it more difficult to understand and reverse-engineer. Some of the key features provided by this library include:
+
+1. **String obfuscation**: The library allows you to convert all strings in the JavaScript code into escaped sequences. These sequences are converted back to their original form at runtime, making it harder for someone to decipher the string values.
+
+2. **Identifier renaming**: This feature renames variables and function names to random strings. By doing so, it obscures the purpose and meaning of different identifiers in the code, making it challenging to grasp their intended functionality.
+
+3. **Dead code injection**: JavaScript Obfuscator can inject non-functional code into the JavaScript code. This injected code doesn't alter the program's functionality but serves to confuse and complicate the understanding of the code.
+
+4. **Control flow flattening**: This technique transforms the control flow of the JavaScript code, making it more convoluted and harder to comprehend the sequence of execution. It introduces additional layers of complexity to deter reverse engineering.
+
+5. **Debug protection**: The library includes a feature that prevents the use of JavaScript debugging features on the obfuscated code. This hinders the ability to inspect and debug the code, adding an extra layer of protection against reverse engineering attempts.
+
+6. **Self-defending**: JavaScript Obfuscator provides an option to make the obfuscated code resistant to formatting and variable renaming. This means that even if someone tries to make the code more readable or rename variables, the obfuscation remains intact, maintaining the code's level of protection.
+
+JavaScript Obfuscator is a powerful tool for securing JavaScript code and protecting intellectual property. It is particularly useful in scenarios where you want to prevent unauthorized access to your code, deter reverse engineering, or safeguard sensitive algorithms and logic.
