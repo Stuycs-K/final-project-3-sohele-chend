@@ -8,3 +8,4 @@
 ## Helpful Resources:
 
 - [de4js | JavaScript Deobfuscator and Unpacker](https://lelinhtinh.github.io/de4js/)
+- [Online JavaScript beautifier](https://beautifier.io/)
