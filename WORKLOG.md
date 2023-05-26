@@ -33,3 +33,7 @@ info
 
 ### 5/24/2023 
 - Continued working on the bullet points of our Outline. 
+
+
+### 5/26/2023 
+- Worked on the Javascript obfuscator code and made a fuctional obfucation and deobfucation program. 
