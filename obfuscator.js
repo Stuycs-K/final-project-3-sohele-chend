@@ -49,3 +49,6 @@ var deobfuscatedCode = complexDeobfuscate(obfuscationResult.obfuscatedCode, obfu
 console.log('Deobfuscated code: ' + deobfuscatedCode);
 
 
+
+
+// this is the more complex deobfuscator now testing 
