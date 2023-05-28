@@ -13,6 +13,7 @@ function complexObfuscate(code) {
       var obfuscatedCharCode = charCode + shift;
       obfuscatedCode += String.fromCharCode(obfuscatedCharCode);
   }
+  // return an object containing the obfuscated code and the shift values used for obfuscation
   return {
       obfuscatedCode: obfuscatedCode,
       shifts: shifts
@@ -27,6 +28,7 @@ function complexObfuscate(code) {
 */
 function complexDeobfuscate(obfuscatedCode, shifts) {
   var code = '';
+  // loop through each character in the obfuscated code and deobfuscate it using the shift value
   for (var i = 0; i < obfuscatedCode.length; i++) {
       var obfuscatedCharCode = obfuscatedCode.charCodeAt(i);
       var charCode = obfuscatedCharCode - shifts[i]; // Subtract the shift value from each character's Unicode value
@@ -47,18 +49,3 @@ console.log('Obfuscated code: ' + obfuscationResult.obfuscatedCode);
 // Now we deobfuscate the code and print it out.
 var deobfuscatedCode = complexDeobfuscate(obfuscationResult.obfuscatedCode, obfuscationResult.shifts);
 console.log('Deobfuscated code: ' + deobfuscatedCode);
-
-
-
-
-// this is the more complex deobfuscator now testing 
-
-// david work more on this
-
-
-// new ideas
-
-// add a simple obfuscator 
-
-
-// need to add more here 
