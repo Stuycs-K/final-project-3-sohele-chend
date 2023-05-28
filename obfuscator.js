@@ -47,3 +47,7 @@ console.log('Obfuscated code: ' + obfuscatedCode);
 // Now we deobfuscate the code and print it out. This should give us back the original code.
 var deobfuscatedCode = deobfuscate(obfuscatedCode);
 console.log('Deobfuscated code: ' + deobfuscatedCode);
+
+
+
+// will add more code soon that shows more complex de/obfuscation
