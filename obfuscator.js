@@ -19,3 +19,33 @@ function complexObfuscate(code) {
   };
 }
 
+/**
+* This function does the opposite of the `complexObfuscate` function, taking obfuscated code and shift values as input and "deobfuscating" it.
+* @param {string} obfuscatedCode - The obfuscated code to deobfuscate
+* @param {Array<number>} shifts - The shift values used for obfuscation
+* @returns {string} - The deobfuscated code
+*/
+function complexDeobfuscate(obfuscatedCode, shifts) {
+  var code = '';
+  for (var i = 0; i < obfuscatedCode.length; i++) {
+      var obfuscatedCharCode = obfuscatedCode.charCodeAt(i);
+      var charCode = obfuscatedCharCode - shifts[i]; // Subtract the shift value from each character's Unicode value
+      code += String.fromCharCode(charCode);
+  }
+  return code;
+}
+
+// Example usage:
+
+var originalCode = 'console.log("Hello, World!");';
+console.log('Original code: ' + originalCode);
+
+// We obfuscate the code and print out the obfuscated version.
+var obfuscationResult = complexObfuscate(originalCode);
+console.log('Obfuscated code: ' + obfuscationResult.obfuscatedCode);
+
+// Now we deobfuscate the code and print it out.
+var deobfuscatedCode = complexDeobfuscate(obfuscationResult.obfuscatedCode, obfuscationResult.shifts);
+console.log('Deobfuscated code: ' + deobfuscatedCode);
+
+
