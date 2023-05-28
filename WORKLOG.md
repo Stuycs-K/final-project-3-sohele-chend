@@ -38,3 +38,10 @@ introduced the JavaScript Obfuscator library, a Python package that provides adv
 
 ### 5/26/2023 
 - Worked on the Javascript obfuscator code and made a fuctional obfucation and deobfucation program. 
+
+### 5/27/2023 
+ - The obfuscate and deobfuscate functions have been documented with detailed comments explaining their purpose, the parameters they take, and what they return. These comments also explain the key concepts behind these functions, such as Unicode, character encoding, and JavaScript's charCodeAt and fromCharCode methods.
+
+ ### 5/28/2023
+
+ 
