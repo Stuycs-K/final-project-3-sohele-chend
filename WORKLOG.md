@@ -39,6 +39,7 @@
 
 - Continued annotations and comments for the obfuscated code
 - Worked on presentation files
+- Added hints for homework
 
 ### 6/1/2023
 
