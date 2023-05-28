@@ -87,6 +87,7 @@ function sayHello() {
 
 // After obfuscation
 function _0x2ee7() {
+  // a lot of obfuscated code utilize an array to store the strings in the code
   var _0x4b81b6 = ["\x48\x65\x6c\x6c\x6f\x2c\x20\x77\x6f\x72\x6c\x64\x21"];
   console.log(_0x4b81b6[0]);
 }
@@ -107,6 +108,7 @@ function add(a, b) {
 // After obfuscation
 function _0x4b81(_0x2ee7a, _0x2ee7b) {
   var _0x4b81a = false;
+  // false because the above variable is already set to false and will circumvent this route
   if (_0x4b81a) {
     console.log("This is a false path");
   } else {

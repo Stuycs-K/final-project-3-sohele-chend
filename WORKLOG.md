@@ -35,6 +35,11 @@
 
 - Annotate how the actual obfuscated works to make it easier to understand and walk through
 
+### 5/28/2023
+
+- Continued annotations and comments for the obfuscated code
+- Worked on presentation files
+
 ### 6/1/2023
 
 - Worked on presentation files and formatted the file to be more readable
