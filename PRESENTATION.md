@@ -16,6 +16,29 @@ JavaScript obfuscation techniques vary in complexity and effectiveness. Let's ex
 
 One of the primary techniques in JavaScript obfuscation is renaming variables and functions to meaningless labels. This makes the code harder to understand, as the original purpose of each identifier is lost. While it significantly decreases readability, it's relatively easy to reverse with careful analysis.
 
+#### Example
+```javascript
+// Before obfuscation
+function factorial(n) {
+    if (n === 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+// After obfuscation
+function _0x2e87(_0x5a22d3) {
+    if (_0x5a22d3 === 0) {
+        return 1;
+    } else {
+        return _0x5a22d3 * _0x2e87(_0x5a22d3 - 1);
+    }
+}
+```
+
+
+
 *Insert image showing before and after obfuscation snippets here.*
 
 ### 2. String Encryption
