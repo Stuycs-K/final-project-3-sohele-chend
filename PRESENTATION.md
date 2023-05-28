@@ -8,8 +8,6 @@ JavaScript is a high-level, interpreted scripting language primarily used to cre
 
 Obfuscation, on the other hand, is the practice of making something hard to understand or interpret. In the context of JavaScript, obfuscation involves transforming the code into a version that is functionally equivalent but much harder to read and understand.
 
-Developers often obfuscate their JavaScript code. This makes it difficult for others to copy, reverse-engineer, or identify vulnerabilities in their code, thus reducing the chances of misuse by malicious actors.
-
 Example of Obfuscation:
 
 ```javascript
@@ -22,6 +20,8 @@ function greet(name) {
 greet("John");
 
 // After Obfuscation:
+
+// the string array that the obfuscated code will use
 var _0x5eb2 = ["\x48\x65\x6c\x6c\x6f\x2c\x20", "\x21", "\x6c\x6f\x67"];
 (function (_0x2e8f05, _0x5eb293) {
   var _0x4a2acc = function (_0x4f5c22) {
@@ -40,6 +40,8 @@ function _0x4f5c22(_0x4a2a2c) {
   var _0x2e8f05 = _0x4a2a("\x30") + _0x4a2a2c + _0x4a2a("\x31");
   console[_0x4a2a("\x32")](_0x2e8f05);
 }
+
+// the actual function call
 _0x4f5c22("\x4a\x6f\x68\x6e");
 ```
 

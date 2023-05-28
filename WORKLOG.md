@@ -31,6 +31,10 @@
 
 - Worked on homework files and worked with Eric on the javascript obfuscator
 
+### 5/27/2023
+
+- Annotate how the actual obfuscated works to make it easier to understand and walk through
+
 ### 6/1/2023
 
 - Worked on presentation files and formatted the file to be more readable
