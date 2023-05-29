@@ -126,9 +126,11 @@ function _0x4b81(_0x2ee7a, _0x2ee7b) {
 
 While it significantly decreases readability and maintainability, obfuscation can also affect performance due to the additional computational steps introduced. However, obfuscation plays a critical role in code security, especially for code that runs on the client-side like JavaScript.
 
-## What is Deobfuscation and Why is it Necessary
+Examples include:
 
-Deobfuscation is the reverse process of obfuscation - it transforms obfuscated code back into a more readable and understandable form. Deobfuscation is necessary in scenarios like debugging, code audits, malware analysis, or when we need to understand the function and logic of a piece of obfuscated code.
+- preventing attackers from reverse engineering the code to find vulnerabilities
+- protecting intellectual property and proprietary algorithms
+- preventing code tampering and modification
 
 ## Deobfuscation Techniques
 
@@ -138,13 +140,51 @@ Just as there are many ways to obfuscate code, there are also various techniques
 
 Lexical analysis is breaking down code into its building blocks to understand it better. It's like identifying words and their roles in a sentence. By doing this, we can get a clearer picture of what the code is intended to do.
 
+#### Example
+
+Here's an example of a simple lexical analysis of the obfuscated code we saw earlier:
+
+```javascript
+// the string array that the obfuscated code will use
+var _0x5eb2 = ["\x48\x65\x6c\x6c\x6f\x2c\x20", "\x21", "\x6c\x6f\x67"];
+// the function that will be called
+function _0x4f5c22(_0x4a2a2c) {
+  // the string that will be printed
+  var _0x2e8f05 = _0x5eb2[0] + _0x4a2a2c + _0x5eb2[1];
+  // print the string
+  console[_0x5eb2[2]](_0x2e8f05);
+}
+
+// the actual function call
+_0x4f5c22("\x4a\x6f\x68\x6e");
+```
+
+Lexical analysis could be performed with the help of a tool like [jsnice.org](https://jsnice.org/).
+
+#### Output
+
+```javascript
+"use strict";
+/** @type {!Array} */
+var _0x5eb2 = ["Hello, ", "!", "log"];
+/**
+ * @param {string} value
+ * @return {undefined}
+ */
+function _0x4f5c22(value) {
+  var previousState = _0x5eb2[0] + value + _0x5eb2[1];
+  console[_0x5eb2[2]](previousState);
+}
+_0x4f5c22("John");
+```
+
 ### 2. Pattern Recognition
 
 Pattern recognition techniques can be used to identify common obfuscation patterns and replace them with their original counterparts. This can include recognizing encrypted strings and decrypting them, or identifying and removing unnecessary code inserted for obfuscation purposes.
 
 ### 3. Deobfuscation Tools
 
-There are also online tools that deobfuscate javascript code for you. (They do not work very well)
+There are also online tools that deobfuscate javascript code for you.
 
 - https://deobfuscate.io
 - https://deobfuscate.relative.im
