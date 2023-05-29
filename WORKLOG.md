@@ -41,6 +41,10 @@
 - Worked on presentation files
 - Added hints for homework
 
+### 5/29/2023
+
+- Added examples on lexical analysis and remove some inaccurate information from the presentation
+
 ### 6/1/2023
 
 - Worked on presentation files and formatted the file to be more readable
