@@ -52,3 +52,5 @@ console.log('Deobfuscated code: ' + deobfuscatedCode);
 
 
 // this is the more complex deobfuscator now testing 
+
+// david work more on this
