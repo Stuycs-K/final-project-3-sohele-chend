@@ -45,6 +45,10 @@
 
 - Added examples on lexical analysis and remove some inaccurate information from the presentation
 
+### 5/30/2023
+
+- Added more examples for the uses of obfuscation and planned out some of what to say for the presentation
+
 ### 6/1/2023
 
 - Worked on presentation files and formatted the file to be more readable
