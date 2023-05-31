@@ -59,3 +59,6 @@ console.log('Deobfuscated code: ' + deobfuscatedCode);
 // new ideas
 
 // add a simple obfuscator 
+
+
+// need to add more here 
