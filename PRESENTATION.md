@@ -23,8 +23,6 @@ greet("John");
 var _0x5eb2=['\x48\x65\x6c\x6c\x6f\x2c\x20','\x21','\x6c\x6f\x67'];(function(_0x2e8f05,_0x5eb293){var _0x4a2acc=function(_0x4f5c22){while(--_0x4f5c22){_0x2e8f05['\x70\x75\x73\x68'](_0x2e8f05['\x73\x68\x69\x66\x74']());}};_0x4a2acc(++_0x5eb293);}(_0x5eb2,0x1b3));var _0x4a2a=function(_0x2e8f05,_0x5eb293){_0x2e8f05=_0x2e8f05-0x0;var _0x4a2acc=_0x5eb2[_0x2e8f05];return _0x4a2acc;};function _0x4f5c22(_0x4a2a2c){var _0x2e8f05=_0x4a2a('\x30')+_0x4a2a2c+_0x4a2a('\x31');console[_0x4a2a('\x32')](_0x2e8f05);}_0x4f5c22('\x4a\x6f\x68\x6e');
 ```
 
-
-
 ## Understanding Obfuscation Techniques
 
 JavaScript obfuscation techniques vary in complexity and effectiveness. Let's explore some of the commonly used techniques:
@@ -112,8 +110,6 @@ Obfuscation impacts the code in various ways. While it significantly decreases r
 
 Deobfuscation is the reverse process of obfuscation - it transforms obfuscated code back into a more readable and understandable form. Deobfuscation is necessary in scenarios like debugging, code audits, malware analysis, or when we need to understand the function and logic of a piece of obfuscated code.
 
-*Insert diagram illustrating the use cases of deobfuscation here.*
-
 ## Deobfuscation Techniques
 
 Just as there are many ways to obfuscate code, there are also various techniques to deobfuscate it. Some of these include:
@@ -130,41 +126,11 @@ Pattern recognition techniques can be used to identify common obfuscation patter
 
 There are specialized tools available that areApologies for the confusion earlier. Here is the information you requested in a code format with Markdown:
 
-```markdown
 # JavaScript Deobfuscator
 
 JavaScript Deobfuscator is an online deobfuscator that removes common JavaScript obfuscation techniques. It is aimed to help developers understand obfuscated and potentially malicious JavaScript Code. Deobfuscation can also be used as an investigative technique to help find vulnerabilities in software. Deobfuscators are often used to unpack, clean, and rewrite source code, freeing up intermediate and late-stage compilation. Many developers use it to investigate, reverse-engineer code, or analyze other developers' code【20†source】.
 
 ## How Does DeObfuscation Work?
 
-Deobfuscation works by reversing the obfuscation process which often involves several layers of obfuscation to disguise the meaning of the code. Some of this obfuscation is caused by "minification," which is the act of decreasing the total byte count of your source as much as feasible for space reasons. This involves reducing variables to one character IDs and converting phrases such as true to something shorter but comparable like "!0"【21†source】.
+Deobfuscation works by reversing the obfuscation process which often involves several layers of obfuscation to disguise the meaning of the code. Some of this obfuscation is caused by "minification," which is the act of decreasing the total byte count of your source as much as feasible for space reasons. This involves reducing variables to one character IDs and converting phrases such as true to something shorter but comparable like "!0"
 
-## Benefits of Using Javascript Deobfuscator
-
-Using a JavaScript deobfuscator can provide several benefits, including:
-
-1. **Improved Code Readability:** JavaScript deobfuscation can improve the readability of the code, making it easier to understand and modify.
-
-2. **Increased Code Security:** Using a JavaScript deobfuscator, you can reverse the obfuscation process and identify any vulnerabilities or exploits that may have been hidden in the code.
-
-3. **Simplified Debugging:** Debugging obfuscated code can be a nightmare, but a JavaScript deobfuscator can simplify the process.
-
-4. **Improved Collaboration:** Collaborating on obfuscated code can be challenging, but a JavaScript deobfuscator can help make it easier.
-
-5. **Better Understanding of Third-Party Code:** If you're using third-party libraries or frameworks in your project, you may encounter obfuscated code you did not write yourself. By using a JavaScript deobfuscator, you can better understand the code and ensure that it is safe to use in your project【22†source】.
-
-## How to Understand the Deobfuscated JavaScript Code
-
-Deobfuscation is a complex process that requires a deep understanding of JavaScript and obfuscation techniques. Here are the steps to follow to understand the deobfuscated JavaScript code:
-
-1. **Identify the Obfuscation Technique:** Standard techniques include encoding, encryption, and string manipulation. Once you know the technique used, you can use a tool or manual techniques to reverse the process.
-
-2. **Use Deobfuscation Tools:** Several deobfuscation tools are available online, including JSNice, Unminify, and JS-Beautifier.
-
-3. **Analyze the Code:** Once you have deobfuscated the code, you must analyze it to understand its intent.
-
-4. **Test the Code:** After analyzing the code, it's crucial to test it to ensure it doesn't carry out any malicious activities【23†source】.
-
-
-
-need to elaborate on more points and really know what we are talking about. 

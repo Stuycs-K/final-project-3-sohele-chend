@@ -49,7 +49,3 @@ eval(function(p, a, c, k, e, r) {
 2. The obfuscation technique used is a combination of string manipulation and character encoding.
 3. Pay attention to the split() function and how it is used to create an array of strings.
 4. The flag format is FLAG{...}.
-
-
-
-need to add more here too 
