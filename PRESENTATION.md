@@ -68,7 +68,7 @@ function _0x2ee7() {
 
 ```
 
-https://www.rapidtables.com/convert/number/hex-to-ascii.html
+Hexadecimal to Ascii converter: https://www.rapidtables.com/convert/number/hex-to-ascii.html
 
 
 ### 3. Dead Code Insertion and False Paths
