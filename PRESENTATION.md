@@ -54,6 +54,23 @@ function _0x2e87(_0x5a22d3) {
 
 String encryption involves converting string literals in the code into an encrypted or encoded format. This adds an extra layer of complexity, as the actual string values are not immediately visible in the obfuscated code. The encrypted strings are decrypted at runtime, which makes it more difficult for an attacker to extract sensitive information.
 
+```javascript
+// Before obfuscation
+function sayHello() {
+    console.log("Hello, world!");
+}
+
+// After obfuscation
+function _0x2ee7() {
+    var _0x4b81b6 = ['\x48\x65\x6c\x6c\x6f\x2c\x20\x77\x6f\x72\x6c\x64\x21'];
+    console.log(_0x4b81b6[0]);
+}
+
+```
+
+https://www.rapidtables.com/convert/number/hex-to-ascii.html
+
+
 ### 3. Dead Code Insertion and False Paths
 
 Another obfuscation technique is the introduction of dead code or false paths. This involves adding redundant statements, conditionals, or loops that do not affect the program's functionality. It creates confusion and makes it harder for someone to understand the actual logic flow of the code.
