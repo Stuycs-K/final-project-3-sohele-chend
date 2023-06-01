@@ -75,7 +75,28 @@ Hexadecimal to Ascii converter: https://www.rapidtables.com/convert/number/hex-t
 
 Another obfuscation technique is the introduction of dead code or false paths. This involves adding redundant statements, conditionals, or loops that do not affect the program's functionality. It creates confusion and makes it harder for someone to understand the actual logic flow of the code.
 
-*Insert image showing before and after obfuscation snippets here.*
+```javascript
+
+// Before obfuscation
+function add(a, b) {
+    return a + b;
+}
+
+// After obfuscation
+function _0x4b81(_0x2ee7a, _0x2ee7b) {
+    var _0x4b81a = false;
+    if (_0x4b81a) {
+        console.log('This is a false path');
+    } else {
+        var _0x4b81b = true;
+        while (_0x4b81b) {
+            _0x4b81b = false;
+            console.log('This is a false path');
+        }
+    }
+    return _0x2ee7a + _0x2ee7b;
+}
+```
 
 ## Impact of Obfuscation
 
