@@ -8,7 +8,18 @@ Nota bene: Javascript is not in any way related to Java. The name was simply cho
 
 Obfuscation, on the other hand, is the practice of making something hard to understand or interpret. In the context of JavaScript, obfuscation involves transforming the code into a version that is functionally equivalent but much harder to read and understand. This is done to protect the code from being easily reverse-engineered or stolen.
 
-*Insert image of a simple JavaScript code before and after obfuscation here.*
+```javascript
+// Before Obfuscation:
+function greet(name) {
+    let greeting = "Hello, " + name + "!";
+    console.log(greeting);
+}
+
+greet("John");
+
+// After Obfuscation:
+var _0x5eb2=['\x48\x65\x6c\x6c\x6f\x2c\x20','\x21','\x6c\x6f\x67'];(function(_0x2e8f05,_0x5eb293){var _0x4a2acc=function(_0x4f5c22){while(--_0x4f5c22){_0x2e8f05['\x70\x75\x73\x68'](_0x2e8f05['\x73\x68\x69\x66\x74']());}};_0x4a2acc(++_0x5eb293);}(_0x5eb2,0x1b3));var _0x4a2a=function(_0x2e8f05,_0x5eb293){_0x2e8f05=_0x2e8f05-0x0;var _0x4a2acc=_0x5eb2[_0x2e8f05];return _0x4a2acc;};function _0x4f5c22(_0x4a2a2c){var _0x2e8f05=_0x4a2a('\x30')+_0x4a2a2c+_0x4a2a('\x31');console[_0x4a2a('\x32')](_0x2e8f05);}_0x4f5c22('\x4a\x6f\x68\x6e');
+```
 
 ## Understanding Obfuscation Techniques
 
@@ -38,10 +49,6 @@ function _0x2e87(_0x5a22d3) {
     }
 }
 ```
-
-
-
-*Insert image showing before and after obfuscation snippets here.*
 
 ### 2. String Encryption
 
