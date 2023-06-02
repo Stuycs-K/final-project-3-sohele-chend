@@ -16,6 +16,8 @@ The code would aim to be simple and relatively understandble
 
 Deliverable: A js file with the above code deobfuscated (string replaced with plaintext and understandable variable names would suffice)
 
+(hint: paste the above code into a code editor and lint it to make it more readable)
+
 ## Part 2: Instructions:
 1. Analyze the given obfuscated Javascript code.
 2. Identify the obfuscation techniques used in the code.
@@ -49,3 +51,5 @@ eval(function(p, a, c, k, e, r) {
 2. The obfuscation technique used is a combination of string manipulation and character encoding.
 3. Pay attention to the split() function and how it is used to create an array of strings.
 4. The flag format is FLAG{...}.
+
+Deliverable: A text file with the flag attached
