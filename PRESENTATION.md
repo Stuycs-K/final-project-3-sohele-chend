@@ -8,7 +8,7 @@ JavaScript is a high-level, interpreted scripting language primarily used to cre
 
 Obfuscation, on the other hand, is the practice of making something hard to understand or interpret. In the context of JavaScript, obfuscation involves transforming the code into a version that is functionally equivalent but much harder to read and understand.
 
-Example of Obfuscation:
+#### Example of Obfuscation:
 
 ```javascript
 // Before Obfuscation:
@@ -130,6 +130,7 @@ Examples include:
 
 - preventing attackers from reverse engineering the code to find vulnerabilities
 - protecting intellectual property and proprietary algorithms
+  - ex. antibot services like Cloudflare, Google reCAPTCHA have measures in place to prevent attackers from easily understanding the code and bypassing the security checks
 - preventing code tampering and modification
 
 ## Deobfuscation Techniques
@@ -189,3 +190,9 @@ There are also online tools that deobfuscate javascript code for you.
 - https://deobfuscate.io
 - https://deobfuscate.relative.im
 - https://lelinhtinh.github.io/de4js/
+
+### 4. Conclusion
+
+Obfuscation is only one of the many techniques used to protect code. It's important to understand that it's not a foolproof method and can be reversed with enough effort. In general, having any sort of client side code is a security risk. It's best to keep sensitive code on the server side and only send the necessary information to the client.
+
+Go out there and start deobfuscating some code!
