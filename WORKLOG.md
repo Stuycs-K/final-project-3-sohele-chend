@@ -27,7 +27,9 @@
 
 - Added some resources for people to use when deobfuscating Javascript including de4js and js beautifier
 
-info
+### 5/26/2023
+
+- Worked on homework files and worked with Eric on the javascript obfuscator
 
 ## Eric Sohel
 
