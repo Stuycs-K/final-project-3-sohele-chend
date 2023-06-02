@@ -50,6 +50,5 @@ eval(function(p, a, c, k, e, r) {
 1. Think console functions, whatever that means...
 2. The obfuscation technique used is a combination of string manipulation and character encoding.
 3. Pay attention to the split() function and how it is used to create an array of strings.
-4. The flag format is FLAG{...}.
 
-Deliverable: The flag in the same text file as problem one. 
+Deliverable: The secret message in the same text file as problem one. 
