@@ -2,9 +2,7 @@
 
 ## Objective
 
-This assignment is designed to test your understanding of JavaScript obfuscation and deobfuscation techniques. You will be given an obfuscated JavaScript code, and your task is to deobfuscate it and describe the original functionality of the code.
-
-The code would aim to be simple and relatively understandble
+This assignment is designed to test your understanding of JavaScript obfuscation and deobfuscation techniques. 
 
 ## Part 1: Instructions
 
@@ -17,7 +15,7 @@ The code would aim to be simple and relatively understandble
 
 Deliverable: A text file containing the obfuscated factorial function. 
 
-(hint: paste the above code into a code editor and lint it to make it more readable. Also consider beautifying the code.)
+(hint: paste the above code into a code editor and lint it to make it more readable. Also consider beautifying the code first.)
 
 ## Part 2: Instructions:
 1. Analyze the given obfuscated Javascript code.
