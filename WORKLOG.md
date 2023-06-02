@@ -31,6 +31,11 @@
 
 - Worked on homework files and worked with Eric on the javascript obfuscator
 
+### 6/1/2023
+
+- Worked on presentation files and formatted the file to be more readable
+- Added notes for the audience about the nature of js and java
+
 ## Eric Sohel
 
 ### 5/19/2023
@@ -60,16 +65,16 @@
 
 ### 5/28/2023
 
-- worked on the homework problem and started working on the solution. 
+- worked on the homework problem and started working on the solution.
 
-### 5/29/2023 
+### 5/29/2023
 
-- finishing working on the homework problems and started fixing the text on the main presentaition. 
+- finishing working on the homework problems and started fixing the text on the main presentaition.
 
-### 5/30/2023 
+### 5/30/2023
 
 - Fixed up the presentation and started adding more code examples. Made the code examples easy to understand and educational
 
 ### 6/1/2023
 
-- Added all the code examples and added the finishing touches. Made sure the code exmaples worked and shortened unnesseacry text. 
+- Added all the code examples and added the finishing touches. Made sure the code exmaples worked and shortened unnesseacry text.
