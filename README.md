@@ -9,3 +9,8 @@
 
 - [de4js | JavaScript Deobfuscator and Unpacker](https://lelinhtinh.github.io/de4js/)
 - [Online JavaScript beautifier](https://beautifier.io/)
+
+## Project Resources:
+
+- [Homework](https://github.com/Stuycs-K/final-project-3-sohele-chend/blob/main/HOMEWORK.md)
+- [Presentation](https://github.com/Stuycs-K/final-project-3-sohele-chend/blob/main/PRESENTATION.md)
