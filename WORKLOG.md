@@ -60,16 +60,16 @@
 
 ### 5/28/2023
 
--worked on the homework problem and started working on the solution. 
+- worked on the homework problem and started working on the solution. 
 
 ### 5/29/2023 
 
--finishing working on the homework problems and started fixing the text on the main presentaition. 
+- finishing working on the homework problems and started fixing the text on the main presentaition. 
 
 ### 5/30/2023 
 
-- Fixed up the presentation and started adding more code examples. 
+- Fixed up the presentation and started adding more code examples. Made the code examples easy to understand and educational
 
 ### 6/1/2023
 
-- Added all the code examples and added the finishing touches. 
+- Added all the code examples and added the finishing touches. Made sure the code exmaples worked and shortened unnesseacry text. 
