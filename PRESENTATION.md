@@ -4,10 +4,9 @@
 
 JavaScript is a high-level, interpreted scripting language primarily used to create dynamic and interactive elements on web pages. From enhancing user interfaces with animations to handling server requests in the background via AJAX, JavaScript is an integral part of the modern web.
 
-Nota bene: Javascript is not in any way related to Java. The name was simply chosen to capitalize on the popularity of Java at the time. Though the two languages share some similarities in syntax, they are fundamentally different. 
+Obfuscation, on the other hand, is the practice of making something hard to understand or interpret. In the context of JavaScript, obfuscation involves transforming the code into a version that is functionally equivalent but much harder to read and understand. 
 
-Obfuscation, on the other hand, is the practice of making something hard to understand or interpret. In the context of JavaScript, obfuscation involves transforming the code into a version that is functionally equivalent but much harder to read and understand. This is done to protect the code from being easily reverse-engineered or stolen.
-
+Developers often obfuscate their JavaScript code. This makes it difficult for others to copy, reverse-engineer, or identify vulnerabilities in their code, thus reducing the chances of misuse by malicious actors.
 
 Example of Obfuscation: 
 ```javascript
@@ -20,7 +19,11 @@ function greet(name) {
 greet("John");
 
 // After Obfuscation:
-var _0x5eb2=['\x48\x65\x6c\x6c\x6f\x2c\x20','\x21','\x6c\x6f\x67'];(function(_0x2e8f05,_0x5eb293){var _0x4a2acc=function(_0x4f5c22){while(--_0x4f5c22){_0x2e8f05['\x70\x75\x73\x68'](_0x2e8f05['\x73\x68\x69\x66\x74']());}};_0x4a2acc(++_0x5eb293);}(_0x5eb2,0x1b3));var _0x4a2a=function(_0x2e8f05,_0x5eb293){_0x2e8f05=_0x2e8f05-0x0;var _0x4a2acc=_0x5eb2[_0x2e8f05];return _0x4a2acc;};function _0x4f5c22(_0x4a2a2c){var _0x2e8f05=_0x4a2a('\x30')+_0x4a2a2c+_0x4a2a('\x31');console[_0x4a2a('\x32')](_0x2e8f05);}_0x4f5c22('\x4a\x6f\x68\x6e');
+var _0x5eb2=['\x48\x65\x6c\x6c\x6f\x2c\x20','\x21','\x6c\x6f\x67'];(function(_0x2e8f05,_0x5eb293){var _0x4a2acc=function(_0x4f5c22)
+{while(--_0x4f5c22){_0x2e8f05['\x70\x75\x73\x68'](_0x2e8f05['\x73\x68\x69\x66\x74']());}};_0x4a2acc(++_0x5eb293);}(_0x5eb2,0x1b3));var _0x4a2a=function(_0x2e8f05,_0x5eb293)
+{_0x2e8f05=_0x2e8f05-0x0;var _0x4a2acc=_0x5eb2
+[_0x2e8f05];return _0x4a2acc;};function _0x4f5c22(_0x4a2a2c){var _0x2e8f05=_0x4a2a('\x30')
++_0x4a2a2c+_0x4a2a('\x31');console[_0x4a2a('\x32')](_0x2e8f05);}_0x4f5c22('\x4a\x6f\x68\x6e');
 ```
 
 ## Understanding Obfuscation Techniques
@@ -102,9 +105,8 @@ function _0x4b81(_0x2ee7a, _0x2ee7b) {
 
 ## Impact of Obfuscation
 
-Obfuscation impacts the code in various ways. While it significantly decreases readability and maintainability, it can also affect performance due to the additional computational steps introduced. However, obfuscation plays a critical role in code security, especially for code that runs on the client-side like JavaScript.
+While it significantly decreases readability and maintainability, obfuscation can also affect performance due to the additional computational steps introduced. However, obfuscation plays a critical role in code security, especially for code that runs on the client-side like JavaScript.
 
-*Insert diagram showing the trade-offs between readability, performance, and security here.*
 
 ## What is Deobfuscation and Why is it Necessary
 
@@ -116,7 +118,8 @@ Just as there are many ways to obfuscate code, there are also various techniques
 
 ### 1. Lexical Analysis
 
-Lexical analysis involves analyzing the lexical structure of the code to identify patterns and understand the syntactic elements. By identifying the different tokens and their relationships, it becomes easier to reconstruct the original code and understand its purpose.
+Lexical analysis is  breaking down code into its building blocks to understand it better. It's like identifying words and their roles in a sentence. By doing this, we can get a clearer picture of what the code is intended to do.
+
 
 ### 2. Pattern Recognition
 
@@ -124,13 +127,11 @@ Pattern recognition techniques can be used to identify common obfuscation patter
 
 ### 3. Deobfuscation Tools
 
-There are specialized tools available that areApologies for the confusion earlier. Here is the information you requested in a code format with Markdown:
+There are also online tools that deobfuscate javascript code for you. 
 
-# JavaScript Deobfuscator
+* https://deobfuscate.io
+* https://deobfuscate.relative.im
 
-JavaScript Deobfuscator is an online deobfuscator that removes common JavaScript obfuscation techniques. It is aimed to help developers understand obfuscated and potentially malicious JavaScript Code. Deobfuscation can also be used as an investigative technique to help find vulnerabilities in software. Deobfuscators are often used to unpack, clean, and rewrite source code, freeing up intermediate and late-stage compilation. Many developers use it to investigate, reverse-engineer code, or analyze other developers' code【20†source】.
 
-## How Does DeObfuscation Work?
 
-Deobfuscation works by reversing the obfuscation process which often involves several layers of obfuscation to disguise the meaning of the code. Some of this obfuscation is caused by "minification," which is the act of decreasing the total byte count of your source as much as feasible for space reasons. This involves reducing variables to one character IDs and converting phrases such as true to something shorter but comparable like "!0"
 
